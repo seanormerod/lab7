@@ -35,7 +35,13 @@
 						"allowCopyCommand": true,
 						"tableOption": "autoCreate"
 					},
-					"enableStaging": false
+					"enableStaging": true,
+					"stagingSettings": {
+						"linkedServiceName": {
+							"referenceName": "Customers",
+							"type": "LinkedServiceReference"
+						}
+					}
 				},
 				"inputs": [
 					{
