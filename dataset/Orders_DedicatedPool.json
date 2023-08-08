@@ -1,0 +1,16 @@
+{
+	"name": "Orders_DedicatedPool",
+	"properties": {
+		"annotations": [],
+		"type": "SqlPoolTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "orders"
+		},
+		"sqlPool": {
+			"referenceName": "Shop",
+			"type": "SqlPoolReference"
+		}
+	}
+}
