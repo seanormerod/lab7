@@ -32,7 +32,8 @@
 					"sink": {
 						"type": "SqlPoolSink",
 						"preCopyScript": "TRUNCATE table customers",
-						"allowCopyCommand": true
+						"allowCopyCommand": true,
+						"tableOption": "autoCreate"
 					},
 					"enableStaging": false
 				},
