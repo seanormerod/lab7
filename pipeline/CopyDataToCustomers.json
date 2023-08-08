@@ -20,6 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
 							"recursive": true,
+							"wildcardFolderPath": "customers.xml",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
