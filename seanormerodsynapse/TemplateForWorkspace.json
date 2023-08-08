@@ -386,6 +386,27 @@
 			"dependsOn": [
 				"[concat(variables('workspaceId'), '/linkedServices/Customers')]"
 			]
+		},
+		{
+			"name": "[concat(parameters('workspaceName'), '/Customers_DedicatedPool')]",
+			"type": "Microsoft.Synapse/workspaces/datasets",
+			"apiVersion": "2019-06-01-preview",
+			"properties": {
+				"annotations": [],
+				"type": "SqlPoolTable",
+				"schema": [],
+				"typeProperties": {
+					"schema": "dbo",
+					"table": "customers"
+				},
+				"sqlPool": {
+					"referenceName": "Shop",
+					"type": "SqlPoolReference"
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('workspaceId'), '/sqlPools/Shop')]"
+			]
 		}
 	]
 }
