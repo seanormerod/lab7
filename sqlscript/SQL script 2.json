@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 2",
+	"properties": {
+		"content": {
+			"query": "\n\nCREATE TABLE [dbo].[customers]\n( \n\t[id] [varchar](256)  NULL,\n\t[name] [varchar](256)  NULL,\n\t[lastname] [varchar](256)  NULL,\n\t[age] [SMALLINT]  NULL,\n\t[country] [varchar](256)  NULL,\n\t[city] [varchar](256)  NULL,\n\t[postcode] [varchar](256)  NULL,\n\t[street] [varchar](256)  NULL,\n\t[building] [varchar](256)  NULL\n)\n",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Shop",
+				"poolName": "Shop"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
