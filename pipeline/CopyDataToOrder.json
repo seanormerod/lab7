@@ -60,7 +60,8 @@
 									"path": "$['value']"
 								},
 								"sink": {
-									"name": "value"
+									"name": "value",
+									"type": "String"
 								}
 							},
 							{
@@ -81,7 +82,8 @@
 									"type": "String"
 								}
 							}
-						]
+						],
+						"collectionReference": ""
 					}
 				},
 				"inputs": [
