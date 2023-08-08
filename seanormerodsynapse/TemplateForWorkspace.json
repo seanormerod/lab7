@@ -241,8 +241,7 @@
 								"type": "SqlPoolSink",
 								"preCopyScript": "TRUNCATE table orders",
 								"writeBehavior": "Insert",
-								"sqlWriterUseTableLock": false,
-								"tableOption": "autoCreate"
+								"sqlWriterUseTableLock": false
 							},
 							"enableStaging": false,
 							"translator": {
