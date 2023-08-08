@@ -60,8 +60,7 @@
 									"path": "$['value']"
 								},
 								"sink": {
-									"name": "value_str",
-									"type": "String"
+									"name": "value"
 								}
 							},
 							{
